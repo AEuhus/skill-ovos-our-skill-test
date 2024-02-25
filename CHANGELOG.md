@@ -1,3 +1,5 @@
+Added all of our cuustom intents - Alex, Kaden, Daniel
+
 # Changelog
 
 ## [Unreleased](https://github.com/OpenVoiceOS/skill-ovos-hello-world/tree/HEAD)
