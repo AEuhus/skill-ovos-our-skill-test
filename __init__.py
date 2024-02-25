@@ -210,6 +210,16 @@ class ScienceFairProject(OVOSSkill):
                         ("'log_level' setting to 'DEBUG' in the core ")
                         ("configuration (mycroft.conf)"))
 
+    @intent_handler("WhereYouBorn.intent")
+    def handle_where_you_born_intent(self, message):
+        self.speak_dialog("where.you.born")
+        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+                 ("error, and exception."))
+        if self.log_level == "WARNING":
+            LOG.warning(("To be able to see debug logs, you need to change the")
+                        ("'log_level' setting to 'DEBUG' in the core ")
+                        ("configuration (mycroft.conf)"))
+
     def stop(self):
         """Optional action to take when "stop" is requested by the user.
         This method should return True if it stopped something or
