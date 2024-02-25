@@ -4,7 +4,7 @@ from setuptools import setup
 from os import walk, path
 
 URL = "https://https://github.com/AEuhus/skill-ovos-our-skill-test"
-SKILL_CLAZZ = "AlexIsFatTest"  # needs to match __init__.py class name
+SKILL_CLAZZ = "ScienceFairProject"  # needs to match __init__.py class name
 PYPI_NAME = "skill-ovos-our-skill-test-alex-is-fat"  # pip install PYPI_NAME
 
 # below derived from github url to ensure standard skill_id
