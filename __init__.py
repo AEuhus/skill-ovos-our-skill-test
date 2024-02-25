@@ -263,8 +263,7 @@ class ScienceFairProject(OVOSSkill):
     @intent_handler("FavColor.intent")
     def handle_fav_color_intent(self, message): 
         self.speak_dialog("fav.color")
-
-
+    # hdksfsk 
     @intent_handler("EuhusBrownie.intent") 
     def handle_euhus_brownie_intent(self, message): 
         self.speak_dialog("euhus.brownie") 
