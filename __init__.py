@@ -250,9 +250,19 @@ class ScienceFairProject(OVOSSkill):
                         ("'log_level' setting to 'DEBUG' in the core ")
                         ("configuration (mycroft.conf)")) 
 
-     @intent_handler("Poggers.intent")
+    @intent_handler("Poggers.intent")
     def handle_poggers_intent(self, message): 
         self.speak_dialog("poggers")
+        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+                 ("error, and exception."))
+        if self.log_level == "WARNING":
+            LOG.warning(("To be able to see debug logs, you need to change the")
+                        ("'log_level' setting to 'DEBUG' in the core ")
+                        ("configuration (mycroft.conf)")) 
+
+    @intent_handler("FavColor.intent")
+    def handle_fav_color_intent(self, message): 
+        self.speak_dialog("fav.color")
         LOG.info(("There are five types of log messages: 'info, debug, warning, ")
                  ("error, and exception."))
         if self.log_level == "WARNING":
