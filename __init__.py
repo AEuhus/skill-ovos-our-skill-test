@@ -260,6 +260,7 @@ class ScienceFairProject(OVOSSkill):
 #                        ("'log_level' setting to 'DEBUG' in the core ")
 #                        ("configuration (mycroft.conf)")) 
 
+    
     @intent_handler("FavColor.intent")
     def handle_fav_color_intent(self, message): 
         self.speak_dialog("fav.color")
