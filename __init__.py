@@ -1,3 +1,4 @@
+
 from ovos_utils import classproperty
 from ovos_utils.log import LOG
 from ovos_workshop.intents import IntentBuilder
