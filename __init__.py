@@ -280,6 +280,16 @@ class ScienceFairProject(OVOSSkill):
                         ("'log_level' setting to 'DEBUG' in the core ")
                         ("configuration (mycroft.conf)")) 
 
+    @intent_handler("FirstJob.intent") 
+    def handle_first_job_intent(self, message): 
+        self.speak_dialog("first.job") 
+        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+                 ("error, and exception."))
+        if self.log_level == "WARNING":
+            LOG.warning(("To be able to see debug logs, you need to change the")
+                        ("'log_level' setting to 'DEBUG' in the core ")
+                        ("configuration (mycroft.conf)")) 
+
     def stop(self):
         """Optional action to take when "stop" is requested by the user.
         This method should return True if it stopped something or
