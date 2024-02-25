@@ -7,7 +7,7 @@ from ovos_workshop.skills import OVOSSkill
 
 
 DEFAULT_SETTINGS = {
-    "log_level": "WARNING"
+    "log_level": "EXCEPTION"
 }
 
 
