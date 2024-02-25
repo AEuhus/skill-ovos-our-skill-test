@@ -71,234 +71,234 @@ class ScienceFairProject(OVOSSkill):
     @intent_handler("AlexIsFat.intent")
     def handle_alex_is_fat_intent(self, message):
         self.speak_dialog("alex.is.fat")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("ChatGPTThoughts.intent")
     def handle_chat_gpt_thoughts_intent(self, message):
         self.speak_dialog("chat.gpt.thoughts")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("FavFood.intent")
     def handle_fav_food_intent(self, message):
         self.speak_dialog("fav.food")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
  
     @intent_handler("FavMusic.intent")
     def handle_fav_music_intent(self, message):
         self.speak_dialog("fav.music")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("FavSubnautCreature.intent")
     def handle_fav_subnaut_creature_intent(self, message):
         self.speak_dialog("fav.subnaut.creature")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("HelloWorld.intent")
     def handle_hello_world_intent(self, message):
         self.speak_dialog("hello.world")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("HowIsDay.intent")
     def handle_how_is_day_intent(self, message):
         self.speak_dialog("how.is.day")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
 
     @intent_handler("InventHoliday.intent")
     def handle_invent_holiday_intent(self, message):
         self.speak_dialog("invent.holiday")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("NFLTeams.intent")
     def handle_nfl_teams_intent(self, message):
         self.speak_dialog("nfl.teams")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("PrincessPea.intent")
     def handle_princess_pea_intent(self, message):
         self.speak_dialog("princess.pea")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("ThanksForTalking.intent")
     def handle_thanks_for_talking_intent(self, message):
         self.speak_dialog("thanks.for.talking")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
                     
 
     @intent_handler("TortoiseHare.intent")
     def handle_tortoise_hare_intent(self, message):
         self.speak_dialog("tortoise.hare")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("WhatMadeLaugh.intent")
     def handle_what_made_laugh_intent(self, message):
         self.speak_dialog("what.made.laugh")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("WhatMadeSad.intent")
     def handle_what_made_sad_intent(self, message):
         self.speak_dialog("what.made.sad")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("WhereYouBorn.intent")
     def handle_where_you_born_intent(self, message):
         self.speak_dialog("where.you.born")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)"))
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)"))
 
     @intent_handler("FishOrBird.intent")
     def handle_fish_or_bird_intent(self, message):
         self.speak_dialog("fish.or.bird")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
 
     @intent_handler("StoryBehindName.intent")
     def handle_story_behind_name_intent(self, message):
         self.speak_dialog("story.behind.name")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
 
     @intent_handler("PerfectDay.intent")
     def handle_perfect_day_intent(self, message): 
         self.speak_dialog("perfect.day")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
 
     @intent_handler("Poggers.intent")
     def handle_poggers_intent(self, message): 
         self.speak_dialog("poggers")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
 
     @intent_handler("FavColor.intent")
     def handle_fav_color_intent(self, message): 
         self.speak_dialog("fav.color")
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
 
     @intent_handler("EuhusBrownie.intent") 
     def handle_euhus_brownie_intent(self, message): 
         self.speak_dialog("euhus.brownie") 
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
 
     @intent_handler("FirstJob.intent") 
     def handle_first_job_intent(self, message): 
         self.speak_dialog("first.job") 
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
    
     @intent_handler("AndroidOrApple.intent") 
     def handle_android_or_apple_intent(self, message): 
         self.speak_dialog("android.or.apple") 
-        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
-                 ("error, and exception."))
-        if self.log_level == "WARNING":
-            LOG.warning(("To be able to see debug logs, you need to change the")
-                        ("'log_level' setting to 'DEBUG' in the core ")
-                        ("configuration (mycroft.conf)")) 
+#        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+#                 ("error, and exception."))
+#        if self.log_level == "WARNING":
+#            LOG.warning(("To be able to see debug logs, you need to change the")
+#                        ("'log_level' setting to 'DEBUG' in the core ")
+#                        ("configuration (mycroft.conf)")) 
     
     def stop(self):
         """Optional action to take when "stop" is requested by the user.
