@@ -289,7 +289,17 @@ class ScienceFairProject(OVOSSkill):
             LOG.warning(("To be able to see debug logs, you need to change the")
                         ("'log_level' setting to 'DEBUG' in the core ")
                         ("configuration (mycroft.conf)")) 
-
+   
+    @intent_handler("AndroidOrApple.intent") 
+    def handle_android_or_apple_intent(self, message): 
+        self.speak_dialog("android.or.apple") 
+        LOG.info(("There are five types of log messages: 'info, debug, warning, ")
+                 ("error, and exception."))
+        if self.log_level == "WARNING":
+            LOG.warning(("To be able to see debug logs, you need to change the")
+                        ("'log_level' setting to 'DEBUG' in the core ")
+                        ("configuration (mycroft.conf)")) 
+    
     def stop(self):
         """Optional action to take when "stop" is requested by the user.
         This method should return True if it stopped something or
